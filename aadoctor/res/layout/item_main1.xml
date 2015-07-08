@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:padding="5dp"
+     android:layout_height="wrap_content"
+    android:background="@color/first3" >
+       <LinearLayout 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal" 
+           >
+         
+                 <Button
+                android:id="@+id/mBtmainItem1"
+                android:layout_width="0dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+               android:gravity="center"
+               android:background="@drawable/button2"
+                android:text="基礎毉療詞條"
+                android:textColor="@color/black"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:paddingLeft="9dp"
+                android:paddingRight="9dp"
+                android:textSize="23sp" />
+                        
+                 
+                                  <Button
+                 android:layout_marginLeft="2.5dp"
+                android:layout_marginRight="5dp"
+                                      
+                android:id="@+id/mBtmainItem2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                               android:background="@drawable/button2"
+                android:layout_height="wrap_content"
+               android:gravity="center"
+                android:text="基礎毉療詞條"
+                android:textColor="@color/black"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:paddingLeft="9dp"
+                android:paddingRight="9dp"
+                android:textSize="23sp" />
+                      
+       </LinearLayout>
+                 
+</RelativeLayout>

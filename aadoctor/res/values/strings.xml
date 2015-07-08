@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">診療溝通無障礙</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+        <string name="mm1">基礎醫療詞彙</string>
+        <string name="mm2">進階醫療詞彙</string>
+        
+    <string name="m1">毉生</string>
+    <string name="m2">藥丸</string>
+    <string name="m3">護士</string>
+    <string name="m4">睏</string>
+    <string name="m5">毉生</string>
+    <string name="m6">衰弱</string>
+    <string name="m7">血</string>
+    <string name="m8">不適</string>
+    <string name="m9">抽血</string>
+    <string name="m10">發燒</string>
+    <string name="m11">打針</string>
+    <string name="m12">大便</string>
+    <string name="m13">痛</string>
+    <string name="m14">小便</string>
+    <string name="m15">病</string>
+    <string name="m16">嘔吐</string>
+    <string name="m17">消化</string>
+    <string name="m18">肚瀉</string>
+    <string name="m19">藥水</string>
+    <string name="m20">手術</string>
+    
+    
+</resources>

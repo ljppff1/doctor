@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mRlMainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#CCECFB">
+  
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        >
+   <LinearLayout 
+       android:layout_width="0dp"
+       android:layout_weight="1.2"
+       android:paddingLeft="10dp"
+       android:gravity="center"
+       android:layout_height="wrap_content"
+             android:paddingTop="20dp"
+       android:orientation="vertical"
+       >
+          <LinearLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="0dp"
+       android:paddingTop="10dp"
+       android:paddingBottom="10dp"
+       android:layout_weight="1"
+       android:orientation="vertical"
+       >
+            <RelativeLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                >
+                 <Button
+                android:id="@+id/mBtmain1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               
+                android:background="@drawable/button2"
+                android:text="@string/mm1"
+                android:textColor="@color/black"
+                android:textSize="28sp" />
+                                  <Button
+                android:layout_below="@id/mBtmain1"
+                android:id="@+id/mBtmain2"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button2"
+                android:text="@string/mm2"
+                android:textColor="@color/black"
+                android:textSize="28sp" />
+                 </RelativeLayout>
+</LinearLayout>
+       <LinearLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:orientation="vertical"
+       >
+   </LinearLayout>
+       
+       
+       
+                
+                 </LinearLayout>
+                    <LinearLayout 
+       android:layout_width="0dp"
+       android:layout_weight="4"
+       android:layout_height="fill_parent"
+       android:paddingTop="15dp"
+       android:orientation="vertical"
+       >
+                   <GridView 
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:id="@+id/mLvmain1"
+               android:gravity="center"
+               android:numColumns="4"
+               android:stretchMode="columnWidth"
+       android:verticalSpacing="6dip"
+       android:padding="4dip" 
+           ></GridView>
+                        
+   </LinearLayout>
+</LinearLayout>
+</RelativeLayout>

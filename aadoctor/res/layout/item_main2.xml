@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:padding="5dp"
+     android:layout_height="wrap_content"
+    android:background="@color/first3" >
+      
+         
+                 
+                                  <Button
+                 android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                                      
+                android:id="@+id/mBtmainItem1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                               android:background="@drawable/button2"
+               android:gravity="center"
+                android:text="基礎毉療詞條"
+                android:textColor="@color/black"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:paddingLeft="9dp"
+                android:paddingRight="9dp"
+                android:textSize="23sp" />
+
+</RelativeLayout>
